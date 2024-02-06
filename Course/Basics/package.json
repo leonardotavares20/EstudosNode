@@ -1,0 +1,8 @@
+{
+  "name": "test-export-import",
+  "version": "1.0.0",
+  "description": "Test Export Import",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module"
+}

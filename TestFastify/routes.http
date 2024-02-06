@@ -1,0 +1,28 @@
+POST http://localhost:3100/videos
+Content-type: application/json
+
+{
+   "title": "node",
+    "description": "Descrição ilustrativa",
+    "duration": "190"
+}
+
+
+###
+
+GET http://localhost:3100/videos?search=node
+
+###
+
+PUT http://localhost:3100/videos/5d5e0827-12e6-4f4d-85ab-587c5223cfa7
+Content-type: application/json
+
+{
+   "title": "Titulo 2",
+    "description": "Descrição 2",
+    "duration": "1930"
+}
+
+###
+
+DELETE http://localhost:3100/videos/7d784c66-eb51-4068-8034-d135b7545e21
